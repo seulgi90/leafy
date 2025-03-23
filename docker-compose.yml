@@ -32,7 +32,7 @@ services:
     environment:
       - BACKEND_HOST=leafy-backend
     ports:
-      - 8083:80
+      - 8084:80
     depends_on:
       - leafy-backend
     deploy:
